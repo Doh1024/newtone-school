@@ -29,6 +29,7 @@ nav a {
 	color: var(--textColor);
 	text-decoration: none;
   font: bold;
+	font-size: large;
 	position: relative
 }
 
@@ -45,7 +46,7 @@ nav a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
+  background: #000;
   height: 1px;
 }
 
