@@ -12,7 +12,7 @@ import requirement from '../assets/requirement.png'
 const Programs = () => {
   return (
     <div>
-      <h1 class="flex justify-center align-center text-4xl font-bold m-5 dark:text-dark-cyan">Newtone English Language Programs</h1>
+      <h1 class="flex justify-center align-center text-4xl font-bold m-5 mt-10 dark:text-dark-cyan">Newtone English Language Programs</h1>
       <div class="container mx-auto flex justify-center">
         <div class="grid place-self-center grid-cols-1 pb-10 gap-6 lg:gap-32 md:grid-cols-2 lg:grid-cols-2">
           <Card

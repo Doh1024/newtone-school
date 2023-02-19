@@ -1,4 +1,3 @@
-import { CCard, CCardImage, CCardBody, CCardText } from '@coreui/react';
 import React from 'react'
 
 
@@ -6,8 +5,8 @@ const Card = (props) => {
   return (
     <div>
       <div>
-        <div class="max-w-sm m-3 bg-white border border-gray-200 shadow dark:bg-light-blue">
-          <img class="" src={props.img} alt="" />
+        <div class="max-w-sm m-3 shadow-xl bg-white rounded-2xl dark:bg-white">
+          <img class="rounded-t-lg"  src={props.img} alt="" loading="lazy"/>
           <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-dark-cyan">{props.prog}</h5>
             <p class="mb-3 font-normal italic text-gray-700 dark:text-dark-cyan">{props.level}</p>

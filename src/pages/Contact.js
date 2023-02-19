@@ -7,10 +7,10 @@ const contact = () => {
           <div class="container mx-auto my-4 px-4 lg:px-20">
             <div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
               <div class="flex">
-                <h1 class="font-bold uppercase text-4xl">Let's Get Started</h1>
+                <h1 class="font-bold uppercase text-4xl text-dark-cyan">Let's Get Started</h1>
               </div>
               <div>
-                <p class="mt-2 flex ">Send us your contact details and one of our student advisors will get in touch with you about next steps!</p>
+                <p class="mt-2 flex text-dark-cyan">Send us your contact details and one of our student advisors will get in touch with you about next steps!</p>
               </div>
               <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
                 <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
@@ -34,7 +34,7 @@ const contact = () => {
                   <textarea placeholder="Questions?" class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                 </div>
                 <div class="my-2 w-1/2 lg:w-1/4">
-                  <button class="uppercase text-sm font-bold tracking-wide bg-light-purple text-white p-3 rounded-lg w-full 
+                  <button class="uppercase text-sm font-bold tracking-wide bg-dark-cyan text-white p-3 rounded-lg w-full 
                               focus:outline-none focus:shadow-outline">
                     LEARN ENGLISH WITH US
                   </button>
