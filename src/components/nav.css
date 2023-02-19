@@ -29,7 +29,6 @@ nav a {
 	color: var(--textColor);
 	text-decoration: none;
   font: bold;
-
 }
 
 nav a:hover {

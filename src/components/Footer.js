@@ -25,7 +25,7 @@ const Footer = () => {
             </li>
         </ul>
     </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-dark-cyan lg:my-8" />
     <span class="block text-sm text-black sm:text-center dark:text-black">© 2022 Newtone School of Language. All Rights Reserved.
     </span>
 </footer>
