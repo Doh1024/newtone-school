@@ -4,7 +4,7 @@ import person from '../assets/about.png'
 
 const About = () => {
   return (
-  <div className="bg-light-green flex flex-col items-center justify-center p-10">
+  <div className="bg-gray-100 flex flex-col items-center justify-center p-10">
     <div className="max-w-screen-md mx-auto flex flex-col items-center justify-center">
       <h1 className="text-center font-semibold text-4xl p-5 font-montserrat tracking-wide dark:text-dark-cyan">Our Winnipeg Campus</h1>
       <p className="mx-auto text-center p-4 font-montserrat dark:text-dark-cyan">Newtone programs are delivered in-person at our Downtown Winnipeg campus.</p>

@@ -56,9 +56,9 @@ const home = () => {
                 Discover Newtone and supercharge your communication in the classroom and beyond! 
                 </p>
               <div class="mt-8 flex flex-wrap gap-4 text-center">
-                <a href="#" class="block w-full rounded bg-white px-5 lg:px-10 py-3 text-sm font-medium text-light-purple shadow hover:text-white hover:bg-light-purple focus:outline-none focus:ring active:text-rose-500 sm:w-auto">
+                <Link to="/about" class="flex justify-center mx-auto sm:block sm:mx-0 px-10 rounded bg-white py-3 text-sm font-medium text-light-purple shadow hover:text-white hover:bg-light-purple focus:outline-none focus:ring active:text-rose-500 sm:w-auto">
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ const home = () => {
             <div class="flex items-center justify-center mb-2">
               <img src={flex} alt="Flexibility Icon" class="w-12 h-12 mr-4" /> 
             </div>
-            <h2 class="text-2xl font-bold flex justify-center">Flexibility</h2>
+            <h2 class="text-xl lg:text-3xl font-bold font-montserrat dark:text-dark-cyan flex justify-center">Flexibility</h2>
             <p class="text-medium p-5 font-montserrat dark:text-dark-cyan text-center">We offer affordable language programs with multiple start dates — so you can start at a time that's convenient for you.</p>
             <p class="text-medium p-5 font-montserrat dark:text-dark-cyan text-center">Small class sizes ensure that you get tailored one-on-one instruction and learn based on your preferences. </p>
           </div>
@@ -120,7 +120,7 @@ const home = () => {
             <div class="flex items-center justify-center mb-2">
               <img src={accre} alt="Accreditation Icon" class="w-12 h-12 mr-4" />
             </div>
-            <h2 class="text-2xl font-bold flex justify-center">Accreditation</h2>
+            <h2 class="text-xl lg:text-3xl font-bold font-montserrat dark:text-dark-cyan flex justify-center">Accreditation</h2>
             <p class="text-medium p-5 font-montserrat dark:text-dark-cyan text-center">Our English language programs are accredited by <a class="font-montserrat underline underline-offset-auto" href="https://www.languagescanada.ca/en/">Languages Canada</a>  — Canada’s premier language organization — meaning they meet a considerable standard of excellence.</p>
             <p class="text-medium p-5 font-montserrat dark:text-dark-cyan text-center">This ensures that your English language courses are recognized anywhere in the world. </p>
           </div>
@@ -129,7 +129,7 @@ const home = () => {
             <div class="flex items-center justify-center mb-2">
               <img src={learn} alt="Learner Experience Icon" class="w-12 h-12 mr-4" />
             </div>
-            <h2 class="text-2xl font-bold flex justify-center">Learner Experience</h2>
+            <h2 class="text-xl lg:text-3xl font-bold font-montserrat dark:text-dark-cyan flex justify-center">Learner Experience</h2>
             <p class="text-medium p-5 font-montserrat dark:text-dark-cyan text-center">Our experienced language instructors utilize innovative teaching strategies and provide a genuine student-focused environment that helps you fast-track your success. </p>
           </div>
         </div>
@@ -137,10 +137,10 @@ const home = () => {
       {/*languages canada logo*/}   
 
       
-        <div class="mb-20">
-            <img src={logo2} alt="Newtone Logo" class="w-32 mx-auto" />
+        <div class="">
+          <img src={logo2} alt="Newtone Logo" class="w-32 mx-auto pb-5" />
         </div>
-        <button class="bg-blue-500 hover:bg-blue-600 flex justify-center items-center text-white font-bold py-2 px-4 rounded mt-4">Learn more</button>
+        <Link to="/programs"><button class="bg-light-purple hover:bg-dark-cyan mb-20 mx-auto flex justify-center items-center text-white font-bold py-2 px-4 rounded mt-4">Discover our Programs</button></Link>
     </div>
   )
 }
