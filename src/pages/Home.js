@@ -72,6 +72,7 @@ const home = () => {
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center center',
             }}
+            loading="lazy"
           />
 
           <Slide
@@ -80,6 +81,7 @@ const home = () => {
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center center',
             }}
+            loading="lazy"
           />
 
           <Slide
@@ -88,6 +90,7 @@ const home = () => {
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center center',
             }}
+            loading="lazy"
           />
 
           <Slide
@@ -96,6 +99,7 @@ const home = () => {
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center center',
             }}
+            loading="lazy"
           />
           <Nav />
         </HeroSlider>
