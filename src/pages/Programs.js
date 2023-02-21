@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaInfo, FaLevelUpAlt } from 'react-icons/fa'
 import Card from '../components/Card'
 import prog1 from '../assets/prog1.jpg'
 import prog2 from '../assets/prog2.png'

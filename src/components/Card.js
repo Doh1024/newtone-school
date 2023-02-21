@@ -1,6 +1,5 @@
 import React from 'react'
 import ShowMore from 'react-show-more-button'
-import { useState } from 'react'
 
 const Card = (props) => {
   return (
