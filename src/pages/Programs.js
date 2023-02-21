@@ -12,7 +12,7 @@ import requirement from '../assets/requirement.png'
 const Programs = () => {
   return (
     <div>
-      <h1 class="flex justify-center align-center text-4xl font-bold m-5 mt-10 dark:text-dark-cyan">Newtone English Language Programs</h1>
+      <h1 class="flex justify-center text-center font-montserrat align-center text-2xl sm:3xl lg:text-4xl font-bold m-5 mt-10 dark:text-dark-cyan">Newtone English Language Programs</h1>
       <div class="container mx-auto flex justify-center">
         <div class="grid place-self-center grid-cols-1 pb-10 gap-6 lg:gap-32 md:grid-cols-2 lg:grid-cols-2">
           <Card
@@ -57,7 +57,7 @@ const Programs = () => {
           />
         </div>
       </div>
-      <h1 class="flex justify-center align-center text-4xl font-bold m-5 dark:text-dark-cyan">Newtone Program Entrance Requirements</h1>
+      <h1 class="flex justify-center font-montserrat text-center align-center text-2xl font-bold m-5 md:text-3xl dark:text-dark-cyan">Newtone Program Entrance Requirements</h1>
       <img src={requirement} alt="requirement" class="mx-auto pb-20"></img>
     </div>
   )
