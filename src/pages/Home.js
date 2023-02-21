@@ -72,7 +72,6 @@ const home = () => {
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center center',
             }}
-            loading="lazy"
           />
 
           <Slide
@@ -108,7 +107,7 @@ const home = () => {
 
       <div class="container mx-auto mt-12 px-4">
         <h1 class="flex justify-center text-center font-montserrat align-center text-2xl sm:3xl lg:text-4xl font-bold m-5 mt-10 dark:text-dark-cyan">The Newtone Advantage</h1>
-        <p class="text-center w-5/10 lg:1/4 font-montserrat mx-auto pb-10 pt-6 dark:text-dark-cyan">Whether you want to simply improve your English language skills or fulfill your Prior Learning Assessment and Recognition (PLAR) requirements to enrol in <a class="font-montserrat underline underline-offset-auto" href="https://www.robertsoncollege.com/programs/">Robertson College</a> programs, our innovative language programs will help you open up new pathways and achieve your goals.</p>
+        <p class="text-center w-5/10 lg:2/4 font-montserrat mx-auto pb-10 pt-6 dark:text-dark-cyan">Whether you want to simply improve your English language skills or fulfill your Prior Learning Assessment and Recognition (PLAR) requirements to enrol in <a class="font-montserrat underline underline-offset-auto" href="https://www.robertsoncollege.com/programs/">Robertson College</a> programs, our innovative language programs will help you open up new pathways and achieve your goals.</p>
         <div class="flex flex-wrap justify-center">
           
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-8">
