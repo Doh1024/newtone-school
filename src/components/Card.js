@@ -12,7 +12,7 @@ const Card = (props) => {
             <p className="mb-3 font-normal italic text-gray-700 dark:text-dark-cyan">{props.level}</p>
             <ShowMore maxHeight={150}
             style={{fontWeight:'500', fontSize:'15px', padding:'10px'}}
-            styleButton={{backgroundColor:'#B7AAE2', borderRadius:'10px', padding:'10px 10px'}}
+            styleButton={{backgroundColor:'#B7AAE2', borderRadius:'5px', padding:'10px 10px'}}
             >
               <p className="mb-3 font-montserrat font-normal text-gray-700 dark:text-dark-cyan">{props.info}</p>
               <p className="mb-3 font-montserrat font-normal text-gray-700 dark:text-dark-cyan">{props.info2}</p>

@@ -34,8 +34,8 @@ const contact = () => {
                   <textarea placeholder="Questions?" className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                 </div>
                 <div className="my-2 w-1/2 lg:w-1/4">
-                  <button className="uppercase text-sm font-bold tracking-wide bg-dark-cyan text-white p-3 rounded-lg w-full 
-                              focus:outline-none focus:shadow-outline">
+                  <button className="uppercase text-sm font-semibold tracking-wide bg-light-purple text-white p-3 rounded-lg w-full 
+                              focus:outline-none focus:shadow-outline hover:bg-dark-cyan">
                     LEARN ENGLISH WITH US
                   </button>
                 </div>

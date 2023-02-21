@@ -56,7 +56,7 @@ const home = () => {
                 Discover Newtone and supercharge your communication in the classroom and beyond! 
                 </p>
               <div className="mt-8 flex flex-wrap gap-4 text-center">
-                <Link to="/about" className="flex justify-center mx-auto sm:block sm:mx-0 px-10 rounded bg-white py-3 text-sm font-medium text-light-purple shadow hover:text-white hover:bg-light-purple focus:outline-none focus:ring active:text-rose-500 sm:w-auto">
+                <Link to="/about" className="flex justify-center font-montserrat mx-auto sm:block sm:mx-0 px-10 rounded tracking-wide bg-light-purple py-3 text-md font-semibold text-white shadow hover:text-white hover:bg-dark-cyan focus:outline-none focus:ring active:text-rose-500 sm:w-auto">
                   Learn More
                 </Link>
               </div>
@@ -140,7 +140,7 @@ const home = () => {
         <div className="">
           <img src={logo2} alt="Newtone Logo" className="w-32 mx-auto pb-5" />
         </div>
-        <Link to="/programs"><button className="bg-light-purple hover:bg-dark-cyan mb-20 mx-auto flex justify-center items-center text-white font-bold py-2 px-4 rounded mt-4">Discover our Programs</button></Link>
+        <Link to="/programs"><button className="bg-light-purple tracking-wide hover:bg-dark-cyan mb-20 font-montserrat mx-auto flex justify-center items-center text-white font-semibold py-3 px-4 rounded mt-4">Discover our Programs</button></Link>
     </div>
   )
 }
