@@ -4,7 +4,7 @@ import HeroSlider, { Overlay, Slide, Nav } from 'hero-slider';
 //images
 import hero1 from '../assets/hero1.png';
 import hero2 from '../assets/hero2.png';
-import hero3 from '../assets/hero3.png';
+import hero3 from '../assets/hero3.jpg';
 import hero4 from '../assets/hero4.png';
 import logo2 from '../assets/logo2.png';
 import flex from '../assets/flex.png';
