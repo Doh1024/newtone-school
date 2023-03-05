@@ -51,10 +51,10 @@ const Footer = () => {
                             <Link to="/" onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});}} class="mb-6 text-sm font-semibold text-gray-900 uppercase hover:underline dark:text-dark-cyan">Home</Link>
                         </li>
                         <li class="mb-4">
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                         <li>
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                     </ul>
                 </div>
@@ -64,10 +64,10 @@ const Footer = () => {
                             <Link to="/about" onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});}} class="mb-6 text-sm font-semibold text-gray-900 uppercase hover:underline dark:text-dark-cyan">About</Link>
                         </li>
                         <li class="mb-4">
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                         <li>
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                     </ul>
                 </div>
@@ -77,10 +77,10 @@ const Footer = () => {
                             <Link to="/programs" onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});}} class="mb-6 text-sm font-semibold text-gray-900 uppercase hover:underline dark:text-dark-cyan">Programs</Link>
                         </li>
                         <li class="mb-4">
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                         <li>
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                     </ul>
                 </div>
@@ -90,10 +90,10 @@ const Footer = () => {
                             <Link onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});}} class="mb-6 text-sm font-semibold text-gray-900 uppercase hover:underline dark:text-dark-cyan">Application</Link>
                         </li>
                         <li class="mb-4">
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                         <li>
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                     </ul>
                 </div>
@@ -103,10 +103,10 @@ const Footer = () => {
                             <Link to="/contact" onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});}} class="mb-6 text-sm font-semibold text-gray-900 uppercase hover:underline dark:text-dark-cyan">Contact us</Link>
                         </li>
                         <li class="mb-4">
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                         <li>
-                            <a href="" class="hover:underline">placeholder</a>
+                            <Link to="/" class="hover:underline">placeholder</Link>
                         </li>
                     </ul>
                 </div>
