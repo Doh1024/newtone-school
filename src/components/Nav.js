@@ -23,10 +23,9 @@ const Nav = () => {
 				<Link to="/" onClick={hideNavbar}>Home</Link>
 				<Link to="/about" onClick={hideNavbar}>About</Link>
 				<Link to="/programs" onClick={hideNavbar}>Programs</Link>
+				<Link to="/application" onClick={hideNavbar}>Application</Link>
 				<Link to="/contact" onClick={hideNavbar}>Contact Us</Link>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
+				<button className="nav-btn nav-close-btn" onClick={showNavbar}>
 					<FaTimes />
 				</button>
 			</nav>

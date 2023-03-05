@@ -15,7 +15,7 @@ const Programs = () => {
       <p className="text-center w-11/12 sm:w-2/3 lg:1/4 font-montserrat mx-auto pt-6 dark:text-dark-cyan">Strong English language skills are essential for international students to communicate and effectively contribute in a Canadian classroom and thrive in a globalized world. </p>
       <p className="text-center w-11/12 sm:w-2/3 lg:1/4 font-montserrat mx-auto pb-10 pt-6 dark:text-dark-cyan">Newtone's intensive English language programs implement contemporary and cutting-edge learning techniques using real-world texts and videos to help you develop the language proficiency necessary to apply to <a class="font-montserrat underline underline-offset-auto" href="https://www.robertsoncollege.com/programs/">Robertson College</a> and English-language educational institutions as an international student.  </p>
       <div className="container mx-auto flex justify-center">
-        <div className="grid place-self-center grid-cols-1 pb-10 gap-6 lg:gap-32 md:grid-cols-2 lg:grid-cols-2">
+        <div className="grid place-self-center grid-cols-1 pb-10 gap-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-0">
           <Card
             img={prog1}
             prog="Intensive Academic English (IAE1)"
