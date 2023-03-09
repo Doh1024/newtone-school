@@ -17,8 +17,8 @@ const Nav = () => {
 	};
 
 	return (
-		<header>
-			<img src={logo} alt="logo"/>
+		<header>		
+			<img class='lg:ml-5' src={logo} alt="logo"/>
 			<nav ref={navRef}>
 				<Link to="/" onClick={hideNavbar}>Home</Link>
 				<Link to="/about" onClick={hideNavbar}>About</Link>
@@ -37,3 +37,7 @@ const Nav = () => {
 }
 
 export default Nav
+
+/*
+
+*/

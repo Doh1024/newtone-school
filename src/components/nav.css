@@ -30,7 +30,7 @@ nav a {
 	text-decoration: none;
   font: bold;
 	font-size: large;
-	position: relative
+	position: relative;
 }
 
 nav a, nav a:after, nav a:before {
@@ -110,5 +110,7 @@ nav {
 	nav a {
 		font-size: 1.5rem;
 	}
+	
+
 	
 }
