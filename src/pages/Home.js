@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 //images
-const hero1 = 'https://ik.imagekit.io/82ugmoipa/hero/hero1.png';
-const hero2 = 'https://ik.imagekit.io/82ugmoipa/hero/hero2-min.png?updatedAt=1678533553437';
-const hero3 = 'https://ik.imagekit.io/82ugmoipa/hero/hero3.jpg?updatedAt=1678533349851';
-const hero4 = 'https://ik.imagekit.io/82ugmoipa/hero/hero4.png?updatedAt=1678533353723';
+const hero1 = 'https://ik.imagekit.io/jofxwawj9/hero/hero1.png?updatedAt=1678545579094';
+const hero2 = 'https://ik.imagekit.io/jofxwawj9/hero/hero2.jpg?updatedAt=1678545728076';
+const hero3 = 'https://ik.imagekit.io/jofxwawj9/hero/hero3.jpg?updatedAt=1678545587808';
+const hero4 = 'https://ik.imagekit.io/jofxwawj9/hero/hero4.png?updatedAt=1678545581411';
 
 const Home = () => {
 	const { t, i18n } = useTranslation();
