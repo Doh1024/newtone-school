@@ -1,11 +1,6 @@
 import React, { useEffect } from 'react';
 import HeroSlider, { Overlay, Slide, Nav } from 'hero-slider';
 
-//images
-import hero1 from '../assets/hero1.png';
-import hero2 from '../assets/hero2.png';
-import hero3 from '../assets/hero3.jpg';
-import hero4 from '../assets/hero4.png';
 import logo2 from '../assets/logo2.png';
 import flex from '../assets/flex.png';
 import accre from '../assets/accre.png';
@@ -15,6 +10,11 @@ import { Link } from 'react-router-dom';
 
 import { useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
+//images
+const hero1 = 'https://ik.imagekit.io/82ugmoipa/hero/hero1.png';
+const hero2 = 'https://ik.imagekit.io/82ugmoipa/hero/hero2-min.png?updatedAt=1678533553437';
+const hero3 = 'https://ik.imagekit.io/82ugmoipa/hero/hero3.jpg?updatedAt=1678533349851';
+const hero4 = 'https://ik.imagekit.io/82ugmoipa/hero/hero4.png?updatedAt=1678533353723';
 
 const Home = () => {
 	const { t, i18n } = useTranslation();
