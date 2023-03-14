@@ -21,8 +21,22 @@ const Nav = () => {
 			<Link to="/" onClick={hideNavbar}><img class='lg:ml-5' src={logo} alt="logo"/></Link>
 			<nav ref={navRef}>
 				<Link to="/" onClick={hideNavbar}>Home</Link>
-				<Link to="/about" onClick={hideNavbar}>About</Link>
-				<Link to="/programs" onClick={hideNavbar}>Programs</Link>
+				<div class="dropdown m-0">
+					<Link to="/about" onClick={hideNavbar}>About</Link>
+					<div class="dropdown-content">
+						<a href="/">Link 1</a>
+						<a href="/">Link 2</a>
+						<a href="/">Link 3</a>
+					</div>
+				</div>	
+				<div class="dropdown m-0">
+					<Link to="/programs" onClick={hideNavbar}>Programs</Link>
+					<div class="dropdown-content">
+						<a href="/">Link 1</a>
+						<a href="/">Link 2</a>
+						<a href="/">Link 3</a>
+					</div>
+				</div>
 				<Link to="/application" onClick={hideNavbar}>Application</Link>
 				<Link to="/contact" onClick={hideNavbar}>Contact Us</Link>
 				<button className="nav-btn nav-close-btn" onClick={showNavbar}>

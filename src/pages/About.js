@@ -50,6 +50,7 @@ const About = () => {
               src={aboutus2}
               alt="School"
               className="object-cover object-center w-full rounded-lg mb-5 shadow-md"
+              loading='lazy'
             />
             <div className="relative">
               <div className="absolute inset-0 flex items-center" aria-hidden="true">

@@ -25,7 +25,6 @@ header {
 	background-color: var(--mainColor);
 	color: var(--textColor);
 	z-index:100;
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.103);
 }
 
 nav a {
@@ -35,6 +34,49 @@ nav a {
   font: bold;
 	font-size: large;
 	position: relative;
+}
+
+nav{
+	overflow:hidden;
+}
+
+.dropdown {
+	float: left;
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+	margin-top: 11.5rem;
+  position: absolute;
+  background-color: #F7FCFE;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+	margin:0;
+}
+
+.dropdown-content a:hover{
+	background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav li:hover .drowdown{
+	display: block;
 }
 
 nav a, nav a:after, nav a:before {
@@ -113,5 +155,9 @@ nav {
 
 	nav a {
 		font-size: 1.5rem;
+	}
+
+	.dropdown-content{
+		margin-top: 13.8rem;
 	}
 }
