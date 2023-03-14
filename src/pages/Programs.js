@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import axios from "axios";
 import Card from '../components/Card'
 import prog1 from '../assets/prog1.jpg'
 import prog2 from '../assets/prog2.png'
@@ -11,9 +13,19 @@ import { useTranslation } from 'react-i18next';
 
 
 const Programs = () => {
+  const [programs, setPrograms] = useState([]);
+  const URL = 'http://localhost:1337/api/programs';
   const { t, i18n } = useTranslation();
-
 	const languageSlice = useSelector((state) => state.language);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await axios.get("http://localhost:1337/api/programs");
+      setPrograms(response.data);
+      console.log(response.data);
+  }
+    fetchData();
+  },[]);
 
 	useEffect(() => {
 		i18n.changeLanguage(languageSlice.language);
@@ -82,5 +94,15 @@ const Programs = () => {
     </div>
   )
 }
+
+function ProgramPage({ program }) {
+  return (
+    <div>
+      <h1>{program.name}</h1>
+      <p>{program.description}</p>
+    </div>
+  );
+}
+
 
 export default Programs

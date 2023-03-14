@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div>
       <div className='max-w-screen-lg mt-10 mx-auto flex flex-col items-center mb-16 justify-center'>
-        <div className='flex w-2/3 md:w-full flex-col lg:flex-row md:items-center'>
+        <div className='flex w-2/3 md:w-full flex-col-2 md:items-center'>
           <div className='md:w-1/2 lg:-ml-20 lg:mr-24'>
             <img src={aboutus} alt="aboutus" loading="lazy" class="mx-auto w-full mb-4"></img>
             <h1 className="text-left font-semibold text-4xl pb-6 font-montserrat tracking-wide dark:text-dark-cyan">

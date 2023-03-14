@@ -18,7 +18,7 @@ const Nav = () => {
 
 	return (
 		<header>		
-			<img class='lg:ml-5' src={logo} alt="logo"/>
+			<Link to="/" onClick={hideNavbar}><img class='lg:ml-5' src={logo} alt="logo"/></Link>
 			<nav ref={navRef}>
 				<Link to="/" onClick={hideNavbar}>Home</Link>
 				<Link to="/about" onClick={hideNavbar}>About</Link>
