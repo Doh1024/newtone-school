@@ -1,8 +1,19 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import { useSelector } from 'react-redux';
+import { useTranslation } from 'react-i18next';
 
 
 function Contact () {
+
+  const { t, i18n } = useTranslation();
+
+	const languageSlice = useSelector((state) => state.language);
+
+	useEffect(() => {
+		i18n.changeLanguage(languageSlice.language);
+	}, [languageSlice, i18n]);
+
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -74,10 +85,10 @@ function Contact () {
             <form onSubmit={handleOnSubmit}>
               <div className="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
               <div className="flex">
-                <h1 className="font-bold font-montserrat uppercase text-4xl text-dark-cyan">Let's Get Started</h1>
+                <h1 className="font-bold font-montserrat uppercase text-4xl text-dark-cyan">{t('started')}</h1>
               </div>
               <div>
-                <p className="mt-2 flex font-montserrat text-dark-cyan">Send us your contact details and one of our student advisors will get in touch with you about next steps!</p>
+                <p className="mt-2 flex font-montserrat text-dark-cyan">{t('details')}</p>
               </div>
               <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
                 <input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
@@ -117,10 +128,8 @@ function Contact () {
               <div
                 className="w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-dark-cyan rounded-2xl">
                 <div className="flex flex-col text-white">
-                  <h1 className="font-bold font-montserrat uppercase text-4xl my-4">Drop in at our school</h1>
-                  <p className="text-gray-400 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                    tincidunt arcu diam,
-                    eu feugiat felis fermentum id. Curabitur vitae nibh viverra, auctor turpis sed, scelerisque ex.
+                  <h1 className="font-bold font-montserrat uppercase text-4xl my-4">{t('drop_in')}</h1>
+                  <p className="text-gray-400 ">{t('welcome')}
                   </p>
 
                   <div className="flex my-4 w-2/3 lg:w-1/2">
@@ -128,7 +137,7 @@ function Contact () {
                       <i className="fas fa-map-marker-alt pt-2 pr-2" />
                     </div>
                     <div className="flex flex-col">
-                      <h2 className="font-montserrat text-2xl">Our Address</h2>
+                      <h2 className="font-montserrat text-2xl">{t('address')}</h2>
                       <p className="text-gray-400">180 Main St, Winnipeg, MB R3C 1A6</p>
                     </div>
                   </div>
@@ -138,7 +147,7 @@ function Contact () {
                       <i className="fas fa-phone-alt pt-2 pr-2" />
                     </div>
                     <div className="flex flex-col">
-                      <h2 className="font-montserrat text-2xl">Call Us</h2>
+                      <h2 className="font-montserrat text-2xl">{t('call')}</h2>
                       <p className="text-gray-400">Tel: 1-888-709-0730</p>
                       <p className="text-gray-400">Fax: 1-888-709-0730</p>
                     </div>

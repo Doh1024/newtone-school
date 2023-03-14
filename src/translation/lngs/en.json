@@ -49,5 +49,17 @@
   "format":"Format: Online",
   "intake":"Continuous intake every 4 weeks - please contact 1-888-709-0730 (TF) or fill out the contact form below for more information",
 
-  "req":"Newtone Program Entrance Requirements"
+  "req":"Newtone Program Entrance Requirements",
+
+  "mission": "Our mission is to provide a dynamic and immersive language learning experience that empowers our students to achieve fluency and cultural competence. We believe that language learning should be engaging, enjoyable, and accessible to everyone, regardless of their background or experience level. Our experienced and dedicated instructors create a supportive and challenging learning environment that encourages our students to take risks, make mistakes, and learn from them. We are committed to helping our students achieve their language goals and develop the skills they need to succeed in a global society.",
+  "our_mission": "Our Mission",
+
+  "started": "Let's Get Started",
+  "details": "Send us your contact details and one of our student advisors will get in touch with you about next steps!",
+  "drop_in": "Drop in at our school",
+  "welcome": "Interested in learning more about our language programs? Come visit us in person! We welcome all visitors to drop by our school and meet our friendly staff, take a tour of our facilities, and ask any questions you may have. We'd love to show you around and give you a taste of what makes our language school special.",
+  "address": "Our Address",
+  "call": "Call Us",
+
+  "apply": "Apply Now"
 }

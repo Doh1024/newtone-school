@@ -70,7 +70,7 @@ const Home = () => {
 							<div className='mt-8 flex flex-wrap gap-4 text-center'>
 								<Link
 									to='/about'
-									className='flex justify-center font-montserrat mx-auto sm:block sm:mx-0 px-10 rounded tracking-wide bg-light-purple py-3 text-md font-semibold text-white shadow hover:text-white hover:bg-dark-cyan focus:outline-none focus:ring active:text-rose-500 sm:w-auto'
+									className='flex justify-center font-montserrat mx-auto sm:block sm:mx-0 px-10 rounded tracking-wide bg-light-purple py-3 text-md font-semibold text-white shadow hover:text-white hover:bg-dark-cyan focus:outline-none focus:ring sm:w-auto'
 								>
 									{t('learn_more')}
 								</Link>

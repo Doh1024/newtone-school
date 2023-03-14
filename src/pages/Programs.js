@@ -14,7 +14,6 @@ import { useTranslation } from 'react-i18next';
 
 const Programs = () => {
   const [programs, setPrograms] = useState([]);
-  const URL = 'http://localhost:1337/api/programs';
   const { t, i18n } = useTranslation();
 	const languageSlice = useSelector((state) => state.language);
 

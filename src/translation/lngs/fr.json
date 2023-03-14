@@ -48,5 +48,15 @@
   "format":"Format : En ligne",
   "intake":"Admission continue toutes les 4 semaines - veuillez contacter le 1-888-709-0730 (TF) ou remplir le formulaire de contact ci-dessous pour plus d'informations",
 
-  "req":"Conditions d'admission au programme Newtone"
+  "req":"Conditions d'admission au programme Newtone",
+  
+  "mission":"Notre mission est d'offrir à nos élèves une expérience d'apprentissage linguistique dynamique et immersive qui leur permet d'acquérir de la maîtrise et des compétences culturelles. Nous croyons que l'apprentissage des langues devrait être intéressant, agréable et accessible à tous, peu importe leur origine ou leur niveau d'expérience. Nos instructeurs expérimentés et dévoués créent un environnement d'apprentissage stimulant qui encourage nos élèves à prendre des risques, à faire des erreurs et à en tirer des leçons. Nous sommes déterminés à aider nos élèves à atteindre leurs objectifs linguistiques et à acquérir les compétences dont ils ont besoin pour réussir dans une société mondiale.",
+  "our_mission": "Notre Mission",
+
+  "started": "Commençons.",
+  "details": "Envoyez-nous vos coordonnées et un de nos conseillers étudiants vous contactera au sujet des prochaines étapes!",
+  "drop_in": "Venez à notre école.",
+  "welcome": "Vous voulez en savoir plus sur nos programmes linguistiques? Venez nous voir en personne ! Nous souhaitons la bienvenue à tous les visiteurs de notre école et de rencontrer notre personnel amical, de visiter nos installations et de poser toutes vos questions. Nous aimerions vous faire visiter et vous donner un avant-goût de ce qui rend notre école de langues spéciale.",
+  "address": "Notre adresse",
+  "call": "Appelez-nous"
 }

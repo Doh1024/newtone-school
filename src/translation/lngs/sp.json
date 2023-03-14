@@ -48,5 +48,14 @@
   "format":"Formato: en línea",
   "intake":"Ingreso continuo cada 4 semanas - por favor contacte al 1-888-709-0730 (TF) o llene el formulario de contacto que se segue para más información",
 
-  "req":"Requisitos de entrada del programa Newton"
+  "req":"Requisitos de entrada del programa Newton",
+  "mission":"Nuestra misión es proporcionar una experiencia de aprendizaje de idiomas dinámica e inmersiva que permita a nuestros estudiantes alcanzar una competencia cultural y fluidez. Creemos que el aprendizaje de idiomas debe ser atractivo, agradable y accesible a todos, independientemente de su historial o nivel de experiencia. Nuestros instructores con experiencia y dedicación crean un entorno de aprendizaje que alienta a nuestros estudiantes a correr riesgos, cometer errores y aprender de ellos. Estamos comprometidos a ayudar a nuestros estudiantes a alcanzar sus objetivos lingüísticos y desarrollar las habilidades que necesitan para tener éxito en una sociedad global.",
+  "our_mission": "Nuestra misión",
+  
+  "started": "Empecemos",
+  "details": "Envíennos sus datos y uno de nuestros asesores estudiantiles se pondrá en contacto con ustedes acerca de las siguientes etapas.",
+  "drop_in": "Pasen a nuestra escuela",
+  "welcome": "¿Te interesa aprender más sobre nuestros programas lingüísticos? ¡Ven a visitarnos en persona! A todos los visitantes les damos la bienvenida para que vayan a nuestra escuela y conozcan a nuestro personal amistoso, vayan a visitar nuestras instalaciones y hagan cualquier pregunta que tengan. Nos encantaría mostrarles el lugar y darles una idea de lo que hace especial nuestra escuela de idiomas.",
+  "address": "Nuestra dirección",
+  "call": "Llámanos"
 }
