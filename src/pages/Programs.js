@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import axios from "axios";
 import Card from '../components/Card'
 import prog1 from '../assets/prog1.jpg'
