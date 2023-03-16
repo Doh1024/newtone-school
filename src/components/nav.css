@@ -45,6 +45,14 @@ nav{
   overflow: hidden;
 }
 
+.about{
+	margin-right: 10px;
+}
+
+.program{
+	margin-right: 10px;
+}
+
 .dropdown-content {
   display: none;
 	margin-top: 11.5rem;
@@ -53,6 +61,16 @@ nav{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+}
+
+.dropdown:after {
+  display: inline-block;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #fff;
 }
 
 .dropdown-content a {

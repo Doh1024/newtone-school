@@ -28,6 +28,9 @@ const Footer = () => {
                         <option value='fr'>Français</option>
                         <option value='sp'>Español</option>
                         <option value='kr'>한국어</option>
+                        <option value='vn'>người việt nam</option>
+                        <option value='chS'>普通话</option>
+                        <option value='ch-t'>廣東話</option>
                     </select>
                 </div>
                 

@@ -6,7 +6,7 @@ const Card = (props) => {
     <div>
       <div>
         <div className="max-w-sm m-3 shadow-xl bg-white rounded-2xl dark:bg-white">
-          <img className="rounded-t-lg h-"  src={props.img} alt="" loading="lazy"/>
+          <img className="rounded-t-lg h-" src={props.img} alt="" loading="lazy"/>
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-montserrat font-bold tracking-tight text-gray-900 dark:text-dark-cyan">{props.prog}</h5>
             <p className="mb-3 font-normal italic text-gray-700 dark:text-dark-cyan">{props.level}</p>

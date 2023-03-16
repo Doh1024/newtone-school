@@ -1,7 +1,7 @@
 import React from 'react'
 import {useRef} from "react"
 import logo from '../assets/logo.png'
-import { FaBars, FaTimes } from "react-icons/fa"
+import { FaBars, FaTimes, FaAngleDown } from "react-icons/fa"
 import "./nav.css"
 import { Link } from "react-router-dom"
 
@@ -22,20 +22,23 @@ const Nav = () => {
 			<nav ref={navRef}>
 				<Link to="/" onClick={hideNavbar}>Home</Link>
 				<div class="dropdown m-0">
-					<Link to="/about" onClick={hideNavbar}>About</Link>
+					<Link class="about" to="/about" onClick={hideNavbar}>About</Link>
 					<div class="dropdown-content">
 						<a href="/">Link 1</a>
 						<a href="/">Link 2</a>
 						<a href="/">Link 3</a>
-					</div>
+					</div>				
+					<FaAngleDown className=''/>
 				</div>	
+
 				<div class="dropdown m-0">
-					<Link to="/programs" onClick={hideNavbar}>Programs</Link>
+					<Link class="program" to="/programs" onClick={hideNavbar}>Programs</Link>
 					<div class="dropdown-content">
 						<a href="/">Link 1</a>
 						<a href="/">Link 2</a>
 						<a href="/">Link 3</a>
 					</div>
+					<FaAngleDown/>
 				</div>
 				<Link to="/application" onClick={hideNavbar}>Application</Link>
 				<Link to="/contact" onClick={hideNavbar}>Contact Us</Link>

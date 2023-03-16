@@ -6,6 +6,9 @@ import enTranslation from './lngs/en.json';
 import frTranslation from './lngs/fr.json';
 import spTranslation from './lngs/sp.json';
 import krTranslation from './lngs/kr.json';
+import vnTranslation from './lngs/vn.json';
+import chSTranslation from './lngs/chS.json';
+
 
 
 i18n.use(initReactI18next).init({
@@ -21,6 +24,12 @@ i18n.use(initReactI18next).init({
 		},
 		kr:{
 			translation: krTranslation,
+		},
+		vn:{
+			translation: vnTranslation,
+		},
+		chS:{
+			translation: chSTranslation,
 		},
 	},
 	lng: 'en', // default language
