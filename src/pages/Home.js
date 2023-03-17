@@ -22,6 +22,11 @@ const Home = () => {
 	const languageSlice = useSelector((state) => state.language);
 
 	useEffect(() => {
+		//scroll to top on load
+		window.scrollTo({top: 0, left:0, behavior: 'smooth'});
+	}, []);
+
+	useEffect(() => {
 		i18n.changeLanguage(languageSlice.language);
 	}, [languageSlice, i18n]);
 	return (
@@ -55,28 +60,29 @@ const Home = () => {
 					}}
 				>
 					<div className='absolute inset-0  bg-black/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/80 sm:to-white/25'></div>
-					<div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
-						<div className='max-w-xl text-center sm:text-left sm:mx-auto sm:mt-32 lg:mx-0 md:mt-48 lg:mt-0'>
-							<h1 className='text-3xl font-montserrat font-medium sm:text-5xl tracking-wide'>
-								{t('english_courses_for_a')}
+						<div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
+							<div className='max-w-xl text-center sm:text-left sm:mx-auto sm:mt-32 lg:mx-0 md:mt-48 lg:mt-0'>
+								<h1 className='text-3xl font-montserrat font-medium sm:text-5xl tracking-wide'>
+									{t('english_courses_for_a')}
 
-								<strong className='block font-extrabold font-montserrat text-light-purple'>
-									{t('brighter_future')}.
-								</strong>
-							</h1>
-							<p className='mt-4 max-w-lg font-montserrat sm:text-xl md:text-lg sm:leading-relaxed tracking-wide pt-5'>
-								{t('dicover_newton')}
-							</p>
-							<div className='mt-8 flex flex-wrap gap-4 text-center'>
-								<Link
-									to='/about'
-									className='flex justify-center font-montserrat mx-auto sm:block sm:mx-0 px-10 rounded tracking-wide bg-light-purple py-3 text-md font-semibold text-white shadow hover:text-white hover:bg-dark-cyan focus:outline-none focus:ring sm:w-auto'
-								>
-									{t('learn_more')}
-								</Link>
+									<strong className='block font-extrabold font-montserrat text-light-purple'>
+										{t('brighter_future')}.
+									</strong>
+								</h1>
+								<p className='mt-4 max-w-lg font-montserrat sm:text-xl md:text-lg sm:leading-relaxed tracking-wide pt-5'>
+									{t('dicover_newton')}
+								</p>
+								<div className='mt-8 flex flex-wrap gap-4 text-center'>
+									<Link to='/about' class="mx-auto font-montserrat sm:mx-0 flex justify-center relative items-center px-10 py-3 overflow-hidden text-lg font-medium text-white border-2 border-light-purple hover:border-dark-cyan rounded hover:text-white group hover:bg-dark-cyan">
+										<span class="absolute left-0 block w-full h-0 transition-all bg-dark-cyan opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+										<span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+										<svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+										</span>
+										<span class="relative">{t('learn_more')}</span>
+									</Link>
+								</div>
 							</div>
 						</div>
-					</div>
 				</Overlay>
 
 				<Slide
@@ -197,11 +203,15 @@ const Home = () => {
 			<div className=''>
 				<img src={logo2} alt='Newtone Logo' className='w-32 mx-auto pb-5' />
 			</div>
-			
-				<button className='bg-light-purple tracking-wide hover:bg-dark-cyan mb-20 font-montserrat mx-auto flex justify-center items-center text-white font-semibold py-3 px-4 rounded mt-4'>
-					<Link to='/programs'>{t('discover_our_programs')}</Link>
-				</button>
-			
+			<button class="flex justify-center items-center mx-auto mt-8 mb-20">
+				<Link to='/programs' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});}} class="mx-auto font-montserrat sm:mx-0 flex justify-center relative items-center px-10 py-3 overflow-hidden text-md sm:text-lg font-medium bg-light-purple text-white border-2 border-light-purple hover:border-dark-cyan rounded hover:text-white group hover:bg-dark-cyan">
+					<span class="absolute left-0 block w-full h-0 transition-all bg-dark-cyan opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+					<span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+					<svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+					</span>
+					<span class="relative">{t('discover_our_programs')}</span>
+				</Link>
+			</button>
 		</div>
 	);
 };

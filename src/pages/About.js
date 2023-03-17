@@ -36,13 +36,15 @@ const About = () => {
               {t('about_p_2')}
             </p>
             <div className="mt-6">
-              <Link
-                to="/Contact"
-                onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});}}
-                className="flex justify-center md:mb-12 lg:mb-0 font-montserrat sm:mx-52 items-center py-2 border border-transparent text-base leading-6 font-semibold rounded bg-light-purple text-md text-white shadow hover:text-white hover:bg-dark-cyan focus:outline-none focus:ring"
-              >
-                Apply Now
-              </Link>
+              <button class="flex justify-center items-center mx-auto">
+                <Link to='/Contact' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});}} class="font-montserrat sm:mx-0 flex justify-center relative items-center px-10 py-3 overflow-hidden text-lg font-medium bg-light-purple text-white border-2 border-light-purple hover:border-dark-cyan rounded hover:text-white group hover:bg-dark-cyan">
+                  <span class="absolute left-0 block w-full h-0 transition-all bg-dark-cyan opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                  <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                  <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                  </span>
+                  <span class="relative">Apply Now</span>
+                </Link>
+              </button>
             </div>
           </div>
           <div className="mt-8 md:mt-0 lg:ml-10">

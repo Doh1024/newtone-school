@@ -15,7 +15,7 @@ const Footer = () => {
     }, []);
 
   return (
-    <footer class="p-4 bg-white sm:p-6 dark:bg-light-blue">
+    <footer class=" p-4 bg-white sm:p-6 dark:bg-light-blue">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <Link to="/" className="flex items-center mb-4 sm:mb-0">

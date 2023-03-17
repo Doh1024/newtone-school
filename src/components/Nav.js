@@ -1,5 +1,4 @@
-import React from 'react'
-import {useRef} from "react"
+import React, {useRef} from 'react'
 import logo from '../assets/logo.png'
 import { FaBars, FaTimes, FaAngleDown } from "react-icons/fa"
 import "./nav.css"
@@ -19,7 +18,7 @@ const Nav = () => {
 	return (
 		<header>		
 			<Link to="/" onClick={hideNavbar}><img class='lg:ml-5' src={logo} alt="logo"/></Link>
-			<nav ref={navRef}>
+			<nav ref={navRef} class="md:m-0 lg:mr-24">
 				<Link to="/" onClick={hideNavbar}>Home</Link>
 				<div class="dropdown m-0">
 					<Link class="about" to="/about" onClick={hideNavbar}>About</Link>

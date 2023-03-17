@@ -63,16 +63,6 @@ nav{
   z-index: 1;
 }
 
-.dropdown:after {
-  display: inline-block;
-  margin-left: 5px;
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid #fff;
-}
-
 .dropdown-content a {
   float: none;
   color: black;
