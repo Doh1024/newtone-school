@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 import logo from '../assets/logo.png'
-import { FaBars, FaTimes, FaAngleDown } from "react-icons/fa"
+import { FaBars, FaTimes } from "react-icons/fa"
 import "./nav.css"
 import { Link } from "react-router-dom"
 
@@ -27,7 +27,7 @@ const Nav = () => {
 						<a href="/">Link 2</a>
 						<a href="/">Link 3</a>
 					</div>				
-					<FaAngleDown className=''/>
+					<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="-ml-1" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/> </svg>
 				</div>	
 
 				<div class="dropdown m-0">
@@ -37,7 +37,7 @@ const Nav = () => {
 						<a href="/">Link 2</a>
 						<a href="/">Link 3</a>
 					</div>
-					<FaAngleDown/>
+					<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="-ml-1" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/> </svg>
 				</div>
 				<Link to="/application" onClick={hideNavbar}>Application</Link>
 				<Link to="/contact" onClick={hideNavbar}>Contact Us</Link>

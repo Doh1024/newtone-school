@@ -11,7 +11,7 @@ const Card = (props) => {
             <h5 className="mb-2 text-2xl font-montserrat font-bold tracking-tight text-gray-900 dark:text-dark-cyan">{props.prog}</h5>
             <p className="mb-3 font-normal italic text-gray-700 dark:text-dark-cyan">{props.level}</p>
             <p className="mb-3 font-normal italic text-gray-700 dark:text-dark-cyan">{props.length}</p>
-            <ShowMore maxHeight={150}
+            <ShowMore sadasd maxHeight={150}
             style={{fontWeight:'500', fontSize:'15px', padding:'10px'}}
             styleButton={{backgroundColor:'#B7AAE2', borderRadius:'5px', padding:'10px 10px'}}
             >

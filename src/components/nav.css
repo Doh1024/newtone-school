@@ -31,7 +31,7 @@ nav a {
 	margin: 0 1.5rem;
 	color: var(--textColor);
 	text-decoration: none;
-  font: bold;
+  font: bolder;
 	font-size: large;
 	position: relative;
 }
