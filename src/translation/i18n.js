@@ -8,6 +8,7 @@ import spTranslation from './lngs/sp.json';
 import krTranslation from './lngs/kr.json';
 import vnTranslation from './lngs/vn.json';
 import chSTranslation from './lngs/chS.json';
+import chTTranslation from './lngs/chT.json';
 
 
 
@@ -31,6 +32,9 @@ i18n.use(initReactI18next).init({
 		chS:{
 			translation: chSTranslation,
 		},
+		chT:{
+			translation: chTTranslation,
+		}
 	},
 	lng: 'en', // default language
 	fallbackLng: 'en', // fallback language

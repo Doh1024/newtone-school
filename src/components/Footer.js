@@ -30,7 +30,7 @@ const Footer = () => {
                         <option value='kr'>한국어</option>
                         <option value='vn'>người việt nam</option>
                         <option value='chS'>普通话</option>
-                        <option value='ch-t'>廣東話</option>
+                        <option value='chT'>廣東話</option>
                     </select>
                 </div>
                 
